@@ -1,8 +1,8 @@
-**Name:**
+**Name:** Xinyi Zhang
 
-**Github Account name:**
+**Github Account name:** xinyi-70
 
-**Link to Assignment on Github:** (copy and paste the link to your assignment repo here)
+**Link to Assignment on Github:** (copy and paste the link to your assignment repo here) https://github.com/5004-SEA-Fa24-Geeng/hello-world-xinyi-70
 
 How many hours did it take you to complete this assignment (estimate)?
 
