@@ -21,3 +21,52 @@ Mermaid is a markdown language that allows you to create diagrams. You can find 
 
 <!-- start your playground code under this dashed line -->
 ----
+
+
+### Bold and Italic Example
+This is an example of ***bold text***.
+
+### Nested Blockquotes Example
+> Blockquotes can be nested.
+> > This is an example of nested blockquotes.
+
+### Unordered List Example
+- Item 1
+- Item 2
+  - Indented item a
+  - Indented item b
+- Item 3
+
+### Mermaid Class Diagram
+
+```mermaid
+---
+title: Aloha World UML
+---
+classDiagram
+   direction LR
+   AlohaWorld --> Greeter
+   AlohaWorld --> ConsoleView : uses
+   ConsoleView --> Greeter : uses
+   class AlohaWorld {
+       + main(String[] args) void
+   }
+   class Greeter {
+       - name String
+       - locality int
+       + Greeter(String name)
+       + Greeter(String name, int locality)
+       + getName() String
+       + getLocality() int
+       + setLocality(int locality) void
+       + greet() String
+       + greet(boolean asciiOnly) String
+       - getLocalityString() String
+   }
+   class ConsoleView {
+       + getName() String
+       + getLocality() int
+       + checkRunAgain() boolean
+       + printGreeting(String greeting) void
+   }
+```

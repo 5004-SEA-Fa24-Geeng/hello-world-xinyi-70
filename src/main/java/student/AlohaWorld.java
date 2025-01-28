@@ -15,8 +15,8 @@ package student;
  * classes and methods. HTML can(and should) be included in these comment types.
  * </p>
  *
- * @author UPDATE with your name
- * @version SEMESTER_YEAR (Su2024 for Summer 24)
+ * @author Xinyi Zhang
+ * @version Spring2025
  **/
 
 // this is a single line comment
@@ -49,7 +49,7 @@ public final class AlohaWorld {
         Greeter greeter = new Greeter(name, locality);
         ConsoleView.printGreeting(greeter.greet());
 
-        while (!ConsoleView.checkRunAgain()) {
+        while (ConsoleView.checkRunAgain()) {
             locality = ConsoleView.getLocality();
             greeter.setLocality(locality);
             ConsoleView.printGreeting(greeter.greet());
