@@ -1,13 +1,10 @@
 package student;
 
-/*
- * This class is a placeholder which you will fully implement based on the javadoc
- * 
- * https://cs5004-khoury-lionelle.github.io/hello_world/student/package-summary.html
- *
- */
-
 /**
+ * This class is a placeholder which you will fully implement based on the javadoc
+ * <p>
+ * https://cs5004-khoury-lionelle.github.io/hello_world/student/package-summary.html
+ * </p>
  * Greeting holds the locality information and greeting formats.
  *
  * <p>
@@ -15,7 +12,6 @@ package student;
  * and associated greetings in ASCII and Unicode characters. It provides methods to format
  * these greetings based on the choices.
  * </p>
- *
  */
 public class Greeting {
     /** Int value of locality ID. Immutable */
